@@ -16,4 +16,4 @@ jobs:
           - name: Check NPM CLI
             run: npm -v
           - name: Build the React App
-            run: npm run build
+            run: npm run build --if-present

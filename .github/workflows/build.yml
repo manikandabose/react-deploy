@@ -15,3 +15,5 @@ jobs:
             run: ls
           - name: Check NPM CLI
             run: npm -v
+          - name: Build the React App
+            run: npm run build
